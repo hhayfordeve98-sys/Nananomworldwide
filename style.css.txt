@@ -1,0 +1,96 @@
+:root {
+    --metallic-silver: #E0E0E0;
+    --gold: #D4AF37;
+    --crimson: #9B1B30;
+    --forest-green: #228B22;
+    --dark-bg: #121212;
+    --text-light: #F5F5F5;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--dark-bg);
+    color: var(--text-light);
+    line-height: 1.6;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 5%;
+    background: linear-gradient(to bottom, #1a1a1a, transparent);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav .logo { font-weight: 900; font-size: 1.5rem; letter-spacing: 3px; color: var(--metallic-silver); }
+
+nav ul { display: flex; list-style: none; }
+
+nav ul li { margin-left: 20px; }
+
+nav ul li a { text-decoration: none; color: var(--text-light); font-size: 0.9rem; text-transform: uppercase; }
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: radial-gradient(circle, #2a2a2a 0%, #000000 100%);
+    border-bottom: 2px solid var(--gold);
+}
+
+.hero h1 { font-size: 4rem; font-weight: 900; letter-spacing: 5px; color: var(--metallic-silver); }
+
+.tagline { color: var(--gold); font-size: 1.2rem; letter-spacing: 2px; margin: 10px 0 30px; }
+
+.cta-button {
+    padding: 15px 30px;
+    background-color: transparent;
+    border: 1px solid var(--metallic-silver);
+    color: var(--text-light);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.cta-button:hover { background-color: var(--text-light); color: black; }
+
+/* Sections */
+section { padding: 100px 10%; text-align: center; }
+
+h2 { margin-bottom: 50px; text-transform: uppercase; letter-spacing: 3px; color: var(--gold); }
+
+.symbol-grid, .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.symbol, .item {
+    background: #1d1d1d;
+    padding: 40px;
+    border: 1px solid #333;
+    transition: transform 0.3s;
+}
+
+.item:hover { border-color: var(--crimson); transform: translateY(-10px); }
+
+/* Footer */
+footer {
+    background-color: #0a0a0a;
+    padding: 60px 5%;
+    text-align: center;
+    border-top: 1px solid #333;
+}
+
+.call-response { font-weight: 900; font-size: 1.5rem; margin-bottom: 30px; color: var(--gold); }
+
+.response { color: var(--text-light); font-style: italic; }
+
+.emails { margin-bottom: 20px; color: var(--metallic-silver); font-size: 0.9rem; }

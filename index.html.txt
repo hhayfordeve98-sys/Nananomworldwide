@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NANANOM WORLDWIDE | African Heritage. Future Fashion.</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">NANANOM</div>
+        <ul>
+            <li><a href="#merch">Merchandise</a></li>
+            <li><a href="#movement">The Movement</a></li>
+            <li><a href="#roots">Our Roots</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>NANANOM WORLDWIDE</h1>
+            <p class="tagline">ALWAYS REMEMBER YOUR ROOTS</p>
+            <a href="#merch" class="cta-button">Elevate Your Frequency</a>
+        </div>
+    </header>
+
+    <section id="roots" class="philosophy">
+        <h2>The Ancestral Seal</h2>
+        <div class="symbol-grid">
+            <div class="symbol">
+                <h3>Plantain (Left)</h3>
+                <p>Represents our intricate thought process and intellectual foundation.</p>
+            </div>
+            <div class="symbol">
+                <div class="pawpaw-icon">★</div>
+                <h3>Pawpaw (Center)</h3>
+                <p>Seeing positive things in the future & higher consciousness.</p>
+            </div>
+            <div class="symbol">
+                <h3>Plantain (Right)</h3>
+                <p>The realization that we are all equal in the eyes of the ancestors.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="merch" class="products">
+        <h2>The Collection</h2>
+        <div class="product-grid">
+            <div class="item">Apparel (Jackets/Shirts)</div>
+            <div class="item">Footwear (Shoes/Socks)</div>
+            <div class="item">Vision (Eye Glasses)</div>
+            <div class="item">Accessories (Bags/Boxers)</div>
+        </div>
+    </section>
+
+    <section id="movement" class="activities">
+        <h2>Beyond the Fabric</h2>
+        <ul>
+            <li>Youth Empowerment & Leadership Training</li>
+            <li>Social Media Training Institutions</li>
+            <li>Scholarship Programs & Community Development</li>
+            <li>Concerts, Raves, & Sporting Activities</li>
+        </ul>
+    </section>
+
+    <footer id="contact">
+        <div class="call-response">
+            <p>NANANOM WORLDWIDE!!</p>
+            <p class="response">ALWAYS REMEMBER YOUR ROOTS!!</p>
+        </div>
+        <div class="emails">
+            <p>nananomworldwide@outlook.com</p>
+            <p>nananomworldwide@proton.me</p>
+            <p>nananomworldwide@gmail.com</p>
+        </div>
+        <p class="copyright">&copy; 2026 NANANOM WORLDWIDE. Crafted in Ghana.</p>
+    </footer>
+
+</body>
+</html>

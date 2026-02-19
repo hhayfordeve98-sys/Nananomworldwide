@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empowerment | NANANOM WORLDWIDE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="empowerment-page">
+
+    <nav>
+        <div class="logo">NANANOM</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#programs">Programs</a></li>
+            <li><a href="#scholarships">Scholarships</a></li>
+            <li><a href="#contact">Apply</a></li>
+        </ul>
+    </nav>
+
+    <header class="sub-hero">
+        <h1>Nurturing the Future</h1>
+        <p>Guided by Ancestors. Powered by Youth.</p>
+    </header>
+
+    <section id="programs" class="grid-section">
+        <h2>Our Global Activities</h2>
+        <div class="activity-cards">
+            <div class="card">
+                <h3>Social Media Institutions</h3>
+                <p>Training the next generation of digital creators, marketers, and entrepreneurs to take African brands worldwide.</p>
+            </div>
+            <div class="card">
+                <h3>Leadership & Advocacy</h3>
+                <p>Nurturing young voices to become leaders in their communities and advocates for cultural preservation.</p>
+            </div>
+            <div class="card">
+                <h3>Talent Development</h3>
+                <p>From concerts and raves to sporting events, we provide the platform for raw talent to shine.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="impact" class="impact-stats">
+        <div class="stat">
+            <span class="gold-text">100%</span>
+            <p>Commitment to Community Development</p>
+        </div>
+        <div class="stat">
+            <span class="gold-text">24/7</span>
+            <p>Ancestral Connection</p>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>Interested in our Scholarship Programs?</p>
+        <a href="mailto:nananomworldwide@proton.me" class="cta-button">Apply Now</a>
+    </footer>
+
+</body>
+</html>
